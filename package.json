@@ -1,0 +1,22 @@
+{
+  "name": "react-ninja-udemy",
+  "version": "1.0.0",
+  "description": "repositório de aprendizado react.js utilizando webpack babel e react hot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Suele/react-ninja-udemy.git"
+  },
+  "author": "Suele Guimarães",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Suele/react-ninja-udemy/issues"
+  },
+  "homepage": "https://github.com/Suele/react-ninja-udemy#readme",
+  "devDependencies": {
+    "webpack": "^1.15.0"
+  }
+}
