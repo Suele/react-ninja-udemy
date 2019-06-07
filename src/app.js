@@ -1,11 +1,16 @@
-'use strict'
+"use strict";
 
-import React from 'react';
+import React from "react";
+import Title from "./Title";
 
-const App = React.createClass({
-  render: function () {
-    return <h1>Aplicação Teste react hot loader!!!</h1>
+class App extends React.Component {
+  render() {
+    return (
+      <h1>
+        <Title name='Suele ' sobreNome='Guimarães'/>
+      </h1>
+    );
   }
-})
+}
 
 export default App;
