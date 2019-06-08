@@ -7,7 +7,7 @@ class App extends React.Component {
   render() {
     return (
       <h1>
-        <Title name='Suele ' sobreNome='Guimarães'/>
+        <Title name='Suele ' lastname='Guimarães'/>
       </h1>
     );
   }
