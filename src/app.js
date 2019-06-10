@@ -2,6 +2,7 @@
 import React from "react";
 import Title from "./Title";
 import Square from "./Square";
+import Button from "./Button";
 
 class App extends React.Component {
   render() {
@@ -13,6 +14,9 @@ class App extends React.Component {
         {['red', 'blue', 'green'].map(squareColor => (
           <Square key={squareColor} color={squareColor} />
         ))}
+        <Button>Entrar</Button>
+        <Button>Cancelar</Button>
+        <Button>Teste</Button>
       </div>
     );
   }
