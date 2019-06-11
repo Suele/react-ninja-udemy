@@ -6,10 +6,14 @@ import Square from "./Square";
 class App extends React.Component {
   render() {
     return (
-      <h1>
-        <Title name='Suele ' lastname='Guimarães'/>
-        <Square color='blue'/>
-      </h1>
+      <div>
+        <h1>
+          <Title name='Suele ' lastname='Guimarães' />
+        </h1>
+        {['red', 'blue', 'green'].map(squareColor => (
+          <Square key={squareColor} color={squareColor} />
+        ))}
+      </div>
     );
   }
 }
