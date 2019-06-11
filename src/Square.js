@@ -4,7 +4,6 @@ const Square = (props) => (
 	<div style={{
 		backgroundColor: props.color,
 		heigth: '100px',
-		whidth: '100px'
 	}}/>
 );
 
