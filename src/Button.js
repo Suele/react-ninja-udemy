@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 
-const Button = (props) => (
-    <button>{props.children}</button>
+const Button = ({ props, handleClick }) => (
+  <button onClick={handleClick}>{props.children}</button>
 );
 
 Button.getDefaultProps = {
-    children: 'OK'
-}
+  children: "OK"
+};
 
 export default Button;
