@@ -1,7 +1,9 @@
 import React from "react";
 
-const Button = ({ props, handleClick }) => (
-  <button onClick={handleClick}>{props.children}</button>
+const Button = props => (
+  <button onClick={props.handleClick}>
+    {props.children}
+  </button>
 );
 
 Button.getDefaultProps = {
