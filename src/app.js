@@ -6,6 +6,10 @@ import LikeButton from "./LikeButton";
 import SeachButton from "./SeachButton";
 
 class App extends React.Component {
+  state={
+    text: 'teste de state'
+  }
+
   render() {
     return (
       <div>
@@ -19,8 +23,11 @@ class App extends React.Component {
           <Button>Entrar</Button>
           <Button>Cancelar</Button>
           <Button>Teste</Button>
-          <LikeButton />
-          <SeachButton />
+          <LikeButton/>
+          <SeachButton/>
+        </div>
+        <div onClick={() => this.setState({text: 'outro texto'})}>
+          <h1>{this.state.text}</h1>
         </div>
       </div>
     );
